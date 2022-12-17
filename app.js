@@ -49,7 +49,7 @@ app.get('/',function(req,res){
     if(err){
     console.log(err);
     }else{
-        console.log("Succssfully saved the item to DB.");
+        console.log("Succssfully saved the item to DB. add on");
     }
 });
     res.redirect("/")
